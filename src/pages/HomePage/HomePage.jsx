@@ -7,9 +7,9 @@ import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
 import DownloadIcon from '@mui/icons-material/Download';
 import { Link as RouterLink } from 'react-router-dom';
-import Skills from '../Skills/Skills'; // Import the Skills component
-import Experience from '../Experience/Experience'; // Import the Experience component
-import Projects from '../Projects/Projects'; // Import the Projects component
+import Skills from '../Skills/Skills';
+import Experience from '../Experience/Experience';
+import Projects from '../Projects/Projects';
 import './HomePage.css';
 
 const HomePage = () => {
@@ -104,9 +104,15 @@ const HomePage = () => {
         </Button>
       </div>
 
-      <Skills /> {/* Include the Skills component */}
-      <Experience /> {/* Include the Experience component */}
-      <Projects /> {/* Include the Projects component */}
+      <div id="skills" className="section">
+        <Skills /> {/* Include the Skills component */}
+      </div>
+      <div id="experience" className="section">
+        <Experience /> {/* Include the Experience component */}
+      </div>
+      <div id="projects" className="section">
+        <Projects /> {/* Include the Projects component */}
+      </div>
     </div>
   );
 };
