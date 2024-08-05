@@ -1,13 +1,11 @@
 import React from 'react';
 import Typography from '@mui/material/Typography';
-import Box from '@mui/material/Box';
-import './Skills.css';
 
 const veryHighSkills = [
   { name: 'Java', icon: './icons/java.svg' },
   { name: 'C', icon: './icons/c.svg' },
   { name: 'C++', icon: './icons/cplusplus.svg' },
-  { name: 'Ruby on Rails', icon: './icons/rubyonrails.svg'},
+  { name: 'Ruby on Rails', icon: './icons/rubyonrails.svg' },
 ];
 
 const highSkills = [
@@ -27,45 +25,214 @@ const fairSkills = [
   { name: 'Node.js', icon: './icons/nodejs.svg' },
 ];
 
+const algorithmSkills = [
+  {
+    name: 'Codeforces',
+    icon: './icons/codeforces.svg',
+    description: 'Codeforces IM rating',
+    accounts: [
+      { name: 'gigachau', link: 'https://codeforces.com/profile/gigachau' },
+      { name: 'INeedCarb', link: 'https://codeforces.com/profile/INeedCarb' },
+    ],
+  },
+];
+
 const Skills = () => {
   return (
-    <div id="skills" className="skills section">
-      <Typography variant="h4" className="section-title">Skills</Typography>
-      <div className="skills-category">
-        <Typography variant="h5" className="skills-level">Very High</Typography>
-        <div className="skills-grid">
-          {veryHighSkills.map(skill => (
-            <div key={skill.name} className="skill-item">
-              <div className="skill-icon-container">
-                <img src={skill.icon} alt={skill.name} className="skill-icon" />
+    <div
+      id="skills"
+      style={{
+        backgroundColor: 'var(--color-background)',
+        color: 'var(--color-accent)',
+        padding: '80px 20px',
+        minHeight: '100vh',
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'flex-start',
+        alignItems: 'center',
+      }}
+    >
+      <Typography
+        variant="h4"
+        style={{
+          textAlign: 'center',
+          marginBottom: '60px',
+          fontWeight: 'bold',
+          fontSize: '3rem',
+          width: '100%',
+          fontFamily: 'Poppins, sans-serif',
+        }}
+      >
+        Skills
+      </Typography>
+
+      <div style={{ marginBottom: '40px', width: '100%' }}>
+        <Typography
+          variant="h5"
+          style={{
+            fontSize: '1.5rem',
+            marginBottom: '40px',
+            textAlign: 'left',
+            fontFamily: 'Poppins, sans-serif',
+          }}
+        >
+          Very High Proficiency
+        </Typography>
+        <div
+          style={{
+            display: 'flex',
+            flexWrap: 'wrap',
+            justifyContent: 'flex-start',
+            gap: '20px',
+            width: '100%',
+            maxWidth: '1200px',
+          }}
+        >
+          {veryHighSkills.map((skill) => (
+            <div
+              key={skill.name}
+              style={{
+                display: 'flex',
+                flexDirection: 'column',
+                alignItems: 'center',
+                width: 'calc(16.66% - 20px)',
+              }}
+            >
+              <div style={{ width: '50px', height: '50px', marginBottom: '10px' }}>
+                <img src={skill.icon} alt={skill.name} style={{ width: '100%', height: '100%' }} />
               </div>
-              <Typography variant="body2" className="skill-name">{skill.name}</Typography>
+              <Typography variant="body2" style={{ fontSize: '1rem', textAlign: 'center' }}>
+                {skill.name}
+              </Typography>
             </div>
           ))}
         </div>
       </div>
-      <div className="skills-category">
-        <Typography variant="h5" className="skills-level">High</Typography>
-        <div className="skills-grid">
-          {highSkills.map(skill => (
-            <div key={skill.name} className="skill-item">
-              <div className="skill-icon-container">
-                <img src={skill.icon} alt={skill.name} className="skill-icon" />
+
+      <div style={{ marginBottom: '40px', width: '100%' }}>
+        <Typography
+          variant="h5"
+          style={{
+            fontSize: '1.5rem',
+            marginBottom: '40px',
+            textAlign: 'left',
+            fontFamily: 'Poppins, sans-serif',
+          }}
+        >
+          High Proficiency
+        </Typography>
+        <div
+          style={{
+            display: 'flex',
+            flexWrap: 'wrap',
+            justifyContent: 'flex-start',
+            gap: '20px',
+            width: '100%',
+            maxWidth: '1200px',
+          }}
+        >
+          {highSkills.map((skill) => (
+            <div
+              key={skill.name}
+              style={{
+                display: 'flex',
+                flexDirection: 'column',
+                alignItems: 'center',
+                width: 'calc(16.66% - 20px)',
+              }}
+            >
+              <div style={{ width: '50px', height: '50px', marginBottom: '10px' }}>
+                <img src={skill.icon} alt={skill.name} style={{ width: '100%', height: '100%' }} />
               </div>
-              <Typography variant="body2" className="skill-name">{skill.name}</Typography>
+              <Typography variant="body2" style={{ fontSize: '1rem', textAlign: 'center' }}>
+                {skill.name}
+              </Typography>
             </div>
           ))}
         </div>
       </div>
-      <div className="skills-category">
-        <Typography variant="h5" className="skills-level">Fair</Typography>
-        <div className="skills-grid">
-          {fairSkills.map(skill => (
-            <div key={skill.name} className="skill-item">
-              <div className="skill-icon-container">
-                <img src={skill.icon} alt={skill.name} className="skill-icon" />
+
+      <div style={{ marginBottom: '40px', width: '100%' }}>
+        <Typography
+          variant="h5"
+          style={{
+            fontSize: '1.5rem',
+            marginBottom: '40px',
+            textAlign: 'left',
+            fontFamily: 'Poppins, sans-serif',
+          }}
+        >
+          Fair Proficiency
+        </Typography>
+        <div
+          style={{
+            display: 'flex',
+            flexWrap: 'wrap',
+            justifyContent: 'flex-start',
+            gap: '20px',
+            width: '100%',
+            maxWidth: '1200px',
+          }}
+        >
+          {fairSkills.map((skill) => (
+            <div
+              key={skill.name}
+              style={{
+                display: 'flex',
+                flexDirection: 'column',
+                alignItems: 'center',
+                width: 'calc(16.66% - 20px)',
+              }}
+            >
+              <div style={{ width: '50px', height: '50px', marginBottom: '10px' }}>
+                <img src={skill.icon} alt={skill.name} style={{ width: '100%', height: '100%' }} />
               </div>
-              <Typography variant="body2" className="skill-name">{skill.name}</Typography>
+              <Typography variant="body2" style={{ fontSize: '1rem', textAlign: 'center' }}>
+                {skill.name}
+              </Typography>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <div style={{ width: '100%' }}>
+        <Typography
+          variant="h5"
+          style={{
+            fontSize: '1.5rem',
+            marginBottom: '40px',
+            textAlign: 'left',
+            fontFamily: 'Poppins, sans-serif',
+          }}
+        >
+          Algorithms and Data Structures
+        </Typography>
+        <div
+          style={{
+            display: 'flex',
+            flexWrap: 'wrap',
+            justifyContent: 'flex-start',
+            gap: '20px',
+            width: '100%',
+            maxWidth: '1200px',
+          }}
+        >
+          {algorithmSkills.map((skill) => (
+            <div
+              key={skill.name}
+              style={{
+                display: 'flex',
+                flexDirection: 'column',
+                alignItems: 'center',
+                width: 'calc(16.66% - 20px)',
+              }}
+            >
+              <div style={{ width: '50px', height: '50px', marginBottom: '10px' }}>
+                <img src={skill.icon} alt={skill.name} style={{ width: '100%', height: '100%' }} />
+              </div>
+              <Typography variant="body2" style={{ fontSize: '1rem', textAlign: 'left' }}>
+                {skill.description}
+              </Typography>
             </div>
           ))}
         </div>

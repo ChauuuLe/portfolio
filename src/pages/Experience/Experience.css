@@ -1,7 +1,7 @@
 .experience {
-  background-color: var(--color-background) !important;
+  background-color: var(--color-secondary) !important;
   color: var(--color-accent) !important;
-  text-align: left !important;
+  text-align: left !important; /* Override center alignment */
   padding: 50px 20px !important; /* Add padding for spacing */
 }
 
@@ -12,13 +12,14 @@
   font-size: 2rem !important; /* Increase section title size */
 }
 
-.experience-item {
-  margin-bottom: 30px !important; /* Add spacing between experience items */
+.experience-item, .achievement-item {
+  margin-bottom: 30px !important; /* Add spacing between items */
 }
 
 .experience-title {
   font-weight: bold !important;
   font-size: 1.25rem !important; /* Increase experience title size */
+  margin-bottom: 10px !important; /* Add space below the title */
 }
 
 .experience-date {
@@ -27,14 +28,18 @@
   font-size: 1rem !important; /* Increase experience date size */
 }
 
-.experience-description {
+.experience-description, .achievement-description {
   margin: 0 !important;
-  padding: 0 0 0 20px !important; /* Add left padding for list */
+  padding-left: 20px !important; /* Add left padding for list */
   list-style-type: disc !important;
   font-size: 1.1rem !important; /* Increase description size */
 }
 
-.experience-description li {
+.experience-description li, .achievement-description li {
   margin-bottom: 10px !important; /* Add space between list items */
   text-align: left !important; /* Ensure text aligns left */
+}
+
+.achievement-section {
+  margin-top: 80px !important; /* Increase top margin for the Achievements section */
 }
