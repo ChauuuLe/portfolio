@@ -1,0 +1,59 @@
+.skills {
+  background-color: var(--color-background) !important;
+  color: var(--color-accent) !important;
+  text-align: center;
+  align-items: flex-start; /* Align skills section to the left */
+}
+
+.skills-category {
+  margin-bottom: 40px; /* Ensure margin is applied */
+  margin-left: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align items to the left */
+  width: 100%; /* Ensure full width */
+}
+
+.skills-level {
+  margin-bottom: 30px !important;
+  font-weight: bold !important;
+  width: 100%; /* Ensure full width */
+  text-align: center !important; /* Center align section titles */
+}
+
+.skills-grid {
+  display: grid !important;
+  grid-template-columns: repeat(6, 1fr) !important; /* Ensure 6 columns */
+  gap: 20px !important; /* Adjust gap between items */
+  width: 100%; /* Ensure grid takes full width */
+}
+
+.skill-item {
+  text-align: center !important; /* Center align text */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center align items */
+}
+
+.skill-icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px !important; /* Ensure height is applied */
+  width: 80px !important; /* Ensure width is applied */
+  max-height: 100% !important;
+  max-width: 100% !important;
+}
+
+.skill-icon {
+  max-height: 100% !important;
+  max-width: 100% !important;
+  width: auto !important;
+  height: auto !important;
+}
+
+.skill-name {
+  margin-top: 10px !important;
+  font-size: 1rem !important;
+  white-space: nowrap !important; /* Ensure text stays on one line */
+}
