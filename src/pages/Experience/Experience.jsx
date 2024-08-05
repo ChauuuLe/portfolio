@@ -5,13 +5,10 @@ import './Experience.css';
 
 const experiences = [
   {
-    title: "Software Engineer Intern, Visa Worldwide Pte. Ltd.",
-    date: "May 2023 - July 2023",
+    title: "Software Engineer Intern",
+    date: "May 2024 - July 2024",
     description: [
-      "Interned in Visa Direct team of Commercial and Money Movement Solutions (CMS)",
-      "Developed a web application to create, manage and monitor automated tests on the projects under the Visa Direct team, utilizing Next.js for frontend and Spring Boot for the backend.",
-      "Gathered user requirements from team and designed project from scratch, which included the supporting Oracle database and REST API endpoints for frontend-backend communication.",
-      "Presented fully functional first iteration of the project to senior management near internship-end and handed off project to full-timers as a lasting internal project in the Visa Direct team."
+      
     ]
   },
 ];
