@@ -71,8 +71,8 @@ const HomePage = () => {
         <Avatar src="./avatar.jpg" alt="Chau Le" className="avatar" />
         <Typography variant="body1" className="about-description">
           Hello! I'm Chau Le, a second-year Computer Science (Hons) student at the National University of Singapore (NUS).
-          Welcome to my website, where I share my technical skills, industry experience, and the exciting projects I've worked on.
-          Thank you for visiting, and feel free to connect with me!
+          This is my website to share my technical skills, work experience, and projects I've have done.
+          Thank you for visiting, and feel free to contact with me!
         </Typography>
         <Typography variant="h4" className="section-title" style={{ marginTop: '30px' }}>Contact</Typography>
         <Box className="contact-links">
