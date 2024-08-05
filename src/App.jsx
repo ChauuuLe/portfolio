@@ -5,7 +5,7 @@ import HomePage from './pages/HomePage/HomePage'
 const App = () => {
   return (
     <Routes>
-      <Route path='/' element={<HomePage />} />
+      <Route path='/portfolio/' element={<HomePage />} />
     </Routes>
   );
 }
