@@ -76,12 +76,12 @@ const HomePage = () => {
         </Typography>
         <Typography variant="h4" className="section-title" style={{ marginTop: '30px' }}>Contact</Typography>
         <Box className="contact-links">
-          <RouterLink to="https://www.linkedin.com/in/your-linkedin-profile" target="_blank">
+          <RouterLink to="https://www.linkedin.com/in/le-chau-51148726b/" target="_blank">
             <Box className="contact-icon">
               <img src="./linkedin.svg" alt="LinkedIn" />
             </Box>
           </RouterLink>
-          <RouterLink to="https://github.com/your-github-profile" target="_blank">
+          <RouterLink to="https://github.com/ChauuuLe" target="_blank">
             <Box className="contact-icon">
               <img src="./github.svg" alt="GitHub" />
             </Box>
@@ -96,7 +96,7 @@ const HomePage = () => {
           variant="outlined"
           color="primary"
           startIcon={<DownloadIcon />}
-          href="./resume.pdf"
+          href="./ChauLeCV.pdf"
           download
           className="resume-button"
         >
