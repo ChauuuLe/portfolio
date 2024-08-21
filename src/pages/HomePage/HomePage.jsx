@@ -96,7 +96,7 @@ const HomePage = () => {
           variant="outlined"
           color="primary"
           startIcon={<DownloadIcon />}
-          href="./ChauLeCV.pdf"
+          href="./ChauLeResume.pdf"
           download
           className="resume-button"
         >
@@ -105,13 +105,13 @@ const HomePage = () => {
       </div>
 
       <div id="skills" className="section">
-        <Skills /> {/* Include the Skills component */}
+        <Skills /> {}
       </div>
       <div id="experience" className="section">
-        <Experience /> {/* Include the Experience component */}
+        <Experience /> {}
       </div>
       <div id="projects" className="section">
-        <Projects /> {/* Include the Projects component */}
+        <Projects /> {}
       </div>
     </div>
   );
