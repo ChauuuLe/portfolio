@@ -2,19 +2,19 @@ import React from 'react';
 import Typography from '@mui/material/Typography';
 
 const veryHighSkills = [
-  { name: 'Java', icon: './icons/java.svg' },
+  { name: 'Python', icon: './icons/python.svg' },
   { name: 'C', icon: './icons/c.svg' },
   { name: 'C++', icon: './icons/cplusplus.svg' },
-  { name: 'Ruby on Rails', icon: './icons/rubyonrails.svg' },
 ];
 
 const highSkills = [
-  { name: 'Python', icon: './icons/python.svg' },
+  { name: 'Ruby on Rails', icon: './icons/rubyonrails.svg' },
+  { name: 'Java', icon: './icons/java.svg' },
+  { name: 'Cuda', icon: './icons/cuda.svg' },
   { name: 'React', icon: './icons/react.svg' },
   { name: 'Git', icon: './icons/git.svg' },
   { name: 'JavaScript', icon: './icons/javascript.svg' },
   { name: 'Linux', icon: './icons/linux.svg' },
-  { name: 'VS Code', icon: './icons/vscode.svg' },
   { name: 'MongoDB', icon: './icons/mongodb.svg' },
 ];
 

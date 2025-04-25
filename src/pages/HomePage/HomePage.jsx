@@ -68,7 +68,8 @@ const HomePage = () => {
         <Typography variant="h4" className="section-title">About Me</Typography>
         <Avatar src="./avatar.jpg" alt="Chau Le" className="avatar" />
         <Typography variant="body1" className="about-description">
-          Hello! I'm Chau Le, a second-year Computer Science (Hons) student at the National University of Singapore (NUS).
+          Hello! I'm Chau Le, a second-year Computer Science (Honours) student at the National University of Singapore (NUS).
+          My fields of interest are Parallel Computing and Algorithms.
           This is my website to share my technical skills, work experience, and projects I've have done.
           Thank you for visiting, and feel free to contact with me!
         </Typography>
