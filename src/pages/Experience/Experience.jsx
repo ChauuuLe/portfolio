@@ -4,23 +4,32 @@ import Box from '@mui/material/Box';
 
 const experiences = [
   {
-    title: "Software Engineer Intern - Rakuna Software Product",
-    date: "May 2024 - Present",
+    title: "Incoming Research Intern - Huawei",
+    date: "May 2025 - Jul 2025",
     description: [
-      "Developed new features for Recruiting CRM products and Rakuna Scheduling Interview as a full-stack developer using Ruby on Rails and React.",
-      "Resolved bugs and improved existing features.",
-      "Configured AWS server and implemented code to receive and store user-uploaded data.",
+      "Research and optimize in Large Vision-Language Generation Model",
     ]
   },
+  {
+    title: "Software Engineer Intern - Rakuna Software Product",
+    date: "May 2024 - Aug 2024",
+    description: [
+      "Developed a Recruiting CRM and Rakuna Scheduling Interview system using Ruby on Rails"
+        + "and React JS, streamlining recruitment scheduling and boosting operational efficiency by 30%.",
+      "Implemented multi-language support with Rails I18n and I18n-JS, enabled image/file uploads for email templates"
+        + " using AWS, and leveraged Redis caching to reduce server load and accelerate content delivery, achieving a 40%"
+        + " reduction in average response time, significantly enhancing global user experience and content management.",
+      "Built auto-reminder and process tracking features, resolved bugs, and"
+        + " wrote TTD tests with RSpec, reducing process delays and improving overall system reliability.",
+    ]
+  }
 ];
 
 const achievements = [
   "Rank 15 in International Collegiate Programming Contest – Jakarta Asia Regional (2023)",
   "Second Prize in International Collegiate Programming Contest – Ho Chi Minh Asia Regional",
-  "Second Prize in Vietnamese Olympiad in Informatics (2023) (Rank 40/600)",
-  "Rank 20 in Vietnamese Team Selection Test (TST - 2022)",
+  "Rank 20 in Vietnamese Team Selection Test for IOI",
   "Second Prize in Vietnamese Olympiad in Informatics (2022) (Rank 24/400)",
-  "Rank 14 Reply Code Challenge (2022)"
 ];
 
 const Experience = () => {

@@ -9,7 +9,6 @@ import DownloadIcon from '@mui/icons-material/Download';
 import { Link as RouterLink } from 'react-router-dom';
 import Skills from '../Skills/Skills';
 import Experience from '../Experience/Experience';
-import Projects from '../Projects/Projects';
 import './HomePage.css';
 
 const HomePage = () => {
@@ -56,7 +55,6 @@ const HomePage = () => {
             <a href="#about" className={activeSection === 'about' ? 'active' : ''}>About Me</a>
             <a href="#skills" className={activeSection === 'skills' ? 'active' : ''}>Skills</a>
             <a href="#experience" className={activeSection === 'experience' ? 'active' : ''}>Experience</a>
-            <a href="#projects" className={activeSection === 'projects' ? 'active' : ''}>Projects</a>
           </Box>
         </Toolbar>
       </AppBar>
@@ -103,15 +101,11 @@ const HomePage = () => {
           Resume
         </Button>
       </div>
-
       <div id="skills" className="section">
         <Skills /> {}
       </div>
       <div id="experience" className="section">
         <Experience /> {}
-      </div>
-      <div id="projects" className="section">
-        <Projects /> {}
       </div>
     </div>
   );
