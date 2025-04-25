@@ -48,7 +48,7 @@ const HomePage = () => {
     <div>
       <AppBar position="fixed" className="navbar default">
         <Toolbar className="toolbar">
-          <RouterLink to="/">
+          <RouterLink to="/portfolio/">
             <img src="./wolf2.png" alt="Logo" className="logo" />
           </RouterLink>
           <Box className="navbar-links">
