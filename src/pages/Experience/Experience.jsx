@@ -4,23 +4,25 @@ import Box from '@mui/material/Box';
 
 const experiences = [
   {
-    title: "Incoming Research Intern - Huawei",
+    title: "Research Intern - Huawei",
     date: "May 2025 - Jul 2025",
     description: [
-      "Research and optimize in Large Vision-Language Generation Model",
+      "Developed a checkpoint-conversion utility in Python multiprocessing to migrate model weights across Tensor-Parallel (TP) and"
+        + "Pipeline-Parallel (PP) shard layouts, reducing conversion time by 70% on average",
+      "Designed and optimized a decoder-side beam search module, achieving a 4% improvement in inference accuracy",
+      "Integrated zero-copy, memory-mapped loading of large binary datasets, improving startup time by 25% in discrete-token VLM inference"
+
     ]
   },
   {
     title: "Software Engineer Intern - Rakuna Software Product",
-    date: "May 2024 - Aug 2024",
+    date: "May 2024 - July 2024",
     description: [
-      "Developed a Recruiting CRM and Rakuna Scheduling Interview system using Ruby on Rails"
-        + "and React JS, streamlining recruitment scheduling and boosting operational efficiency by 30%.",
-      "Implemented multi-language support with Rails I18n and I18n-JS, enabled image/file uploads for email templates"
-        + " using AWS, and leveraged Redis caching to reduce server load and accelerate content delivery, achieving a 40%"
-        + " reduction in average response time, significantly enhancing global user experience and content management.",
-      "Built auto-reminder and process tracking features, resolved bugs, and"
-        + " wrote TTD tests with RSpec, reducing process delays and improving overall system reliability.",
+      "Built candidate interview self-scheduling and auto-reminder email features for the Rakuna Interview Scheduling platform,"
+        + "streamlining interview coordination and reducing delays in the hiring process.",
+      "Implemented multi-language support with Rails I18n and I18n-JS, enabling adoption by French customers and laying the"
+        + "foundation for broader international expansion",
+      "Wrote and maintained RSpec tests, improving code quality and ensuring reliable system behavior",
     ]
   }
 ];
